@@ -10,10 +10,13 @@
   }
   
   .components__person {
-    min-width: 18em;
-    height: 25em;
+    width: 18rem;
     border: 5px solid rgba(rgb(129, 247, 129), .7);
     margin: 3%;
     padding: 3%;
+  }
+
+  .page__componentes--title {
+    margin: 1%;
   }
 }

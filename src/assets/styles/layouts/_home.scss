@@ -13,11 +13,12 @@ body {
     width: 100%;
     background-color: black;
     grid-template-columns: 10fr 3fr;
-    grid-template-rows: 1fr 1fr  5fr 2fr;
+    grid-template-rows: 1fr 1fr  2r 1fr 1fr;
 
 
     .poster__item {
       border: 5px solid #ffffff;
+      padding: 1%;
     }
     
     .poster__item--last {
@@ -36,7 +37,11 @@ body {
       text-align: center;
       padding-top: 10px;
     }
-    
+
+    i {
+      font-size: 100px;
+    }
+
     .poster__item--frase {
       text-align: center;
       color: $light;
