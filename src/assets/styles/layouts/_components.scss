@@ -1,0 +1,19 @@
+
+.page__componentes {
+  color: white;
+
+  .components {
+    display: flex;
+    justify-content: space-around;
+    color: $light;
+    flex-wrap: wrap;
+  }
+  
+  .components__person {
+    min-width: 18em;
+    height: 25em;
+    border: 5px solid rgba(rgb(129, 247, 129), .7);
+    margin: 3%;
+    padding: 3%;
+  }
+}

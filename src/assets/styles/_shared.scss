@@ -1,0 +1,64 @@
+/**
+ * ZONA DE CONTACTO
+ **/
+ body {
+     background-color: black;
+ }
+
+ main {
+    border: 5px solid $light;
+ }
+
+.contact {
+    background-color: $light;
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    padding-bottom: 2%;
+
+    .contact__info {
+        margin-top: 1%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        color: $light;
+        i {
+            font-size: xx-large;
+            color: black;
+        }
+        .contact__info--facebook {
+            color: blue;
+        }
+        .contact__info--twitter {
+            color: aqua;
+        }
+        .contact__info--instagram {
+            color: palevioletred;
+        }
+        .contact__info--youtube {
+            color: red;
+        }
+    }
+}
+
+
+@include media-breakpoint-up(lg) {
+.contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+/**
+ * Barra de navegacion
+ **/
+
+ .navbar__logo {
+    height: 5em;
+    width: auto;
+ }
+
+ .navbar {
+     font-size: 1.5em;
+ }
