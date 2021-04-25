@@ -11,10 +11,9 @@ body {
   .poster {
     display: grid;
     width: 100%;
-    height: 70vh;
     background-color: black;
     grid-template-columns: 10fr 3fr;
-    grid-template-rows: 1fr 1fr  10fr 2fr;
+    grid-template-rows: 1fr 1fr  5fr 2fr;
 
 
     .poster__item {
