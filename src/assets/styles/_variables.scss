@@ -3,15 +3,14 @@
 $font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 $font-family-serif: 'Roboto', sans-serif;
 
-$uoc-corporate: #000000;
-$uoc-masterbrand: #ffffff;
-$uoc-bg: color.scale($uoc-masterbrand, $lightness: 70%);
 
 $icon-color: #278166;
 $light: #cdadf1;
+$darkblack: black;
+$greenBand: rgba(rgb(129, 247, 129), .7);
 
 $theme-colors: (
- "primary": #fabada, // pon el código de color que prefieras
+ "primary": #fabada, 
  "success": #cdadf1,
  "light": $light,
  "secondary":  gray,
@@ -24,6 +23,9 @@ $theme-colors: (
 $btn-border-radius: 90px;
 
 $navbar-light-active-color:         rgba(black, .9);
-$navbar-light-hover-color:          rgba(rgb(129, 247, 129), .7);
+$navbar-light-hover-color:          $greenBand;
 $navbar-toggler-font-size:          3rem;
-$navbar-light-active-color:          rgba(rgb(129, 247, 129), .7);
+$navbar-light-active-color:         $greenBand;
+
+
+$transition-collapse:         height .80s ease;
